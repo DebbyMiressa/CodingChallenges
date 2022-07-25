@@ -1,0 +1,64 @@
+body {
+  overflow-x: hidden;
+}
+
+#bgImg {
+  background-image: url("../images/bg.jpg");
+  padding-left: 24px;
+  height: 100vh;
+}
+
+.about {
+  color: #ec5242;
+  font-family: 'lato', sans-serif;
+}
+
+#navMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+}
+
+#hamburger {
+  border: none;
+}
+
+.open-menu {
+  display: block;
+}
+
+.close-menu {
+  display: none;
+}
+
+#motto {
+  color: #ec5242;
+  font-family: 'lato', sans-serif;
+  font-size: 24px;
+  margin-top: 70px;
+}
+
+h1 {
+  color: #fe1c09;
+  font-family: 'cocogoose', sans-serif;
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+#describer {
+  background-color: #f7f7f7;
+  margin-right: 24px;
+}
+
+#description {
+  padding: 5px;
+  border: 2px solid white;
+}
