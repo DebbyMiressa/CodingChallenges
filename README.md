@@ -11,9 +11,9 @@
 - Bootstrap
 - Github, Codepen
 
-## Live Demo (if available)
+## Live Demo
 
-- Click [here](https://debbymiressa.github.io/) to get started with a live demo
+- Click [here](https://htmlpreview.github.io/?https://github.com/DebbyMiressa/CodingChallenges/blob/coding-challenge/index.html) to get started with a live demo
 
 
 ## Getting Started
@@ -25,14 +25,14 @@ To get a local copy up and running follow these simple example steps.
 - Have git installed.
 - Have text editor installed.
 - Have node installed.
-- Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 - Have bootstrap framework installed.
+- Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 
 ## Authors
 
 👤 Cindy Shin
 
-- Dribble: [@githubhandle](http://dribbble.com/adagio07)
+- Dribble: [@adagio07](http://dribbble.com/adagio07)
 - LinkedIn: [LinkedIn](http://linkedin.com/in/adagio07)
 
 👤 Debby Miressa
@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspired by [hacker rank](https://www.hackerrank.com/)
+- Inspired by [hacker-rank](https://www.hackerrank.com/)
 
 ## 📝 License
 

@@ -43,8 +43,8 @@ function dataLoader() {
     expectedtime[i] = val.expectedtime;
   });
   cc.innerHTML = `
-                  <div class="mt-5 d-flex flex-column cc">
-                    <h1 class="coding-header d-flex justify-content-center">Coding Challenges</h1>
+                  <h1 class="coding-header mt-5 d-flex justify-content-center">Coding Challenges</h1>
+                  <div class="d-flex flex-column flex-wrap cc">
                     <div class="challenge one mx-2 mt-4">
                         <h2>${title[0]}</h2>
                         <span><mark>${question[0]}</mark></span><br>
@@ -59,14 +59,14 @@ function dataLoader() {
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[1]}</span><br>
                         <button type="button" class="sub btn mt-4">Start Challenge</button>
                     </div>
-                    <div class="challenge three mx-2 mt-4 visually-hidden">
+                    <div class="challenge three mx-2 mt-4">
                         <h2>${title[2]}</h2>
                         <span><mark>${question[2]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[2]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[2]}</span><br>
                         <button type="button" class="sub btn mt-4">Start Challenge</button>
                     </div>
-                    <div class="challenge four mx-2 mt-4 visually-hidden">
+                    <div class="challenge four mx-2 mt-4">
                         <h2>${title[3]}</h2>
                         <span><mark>${question[3]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[3]}</span><br>

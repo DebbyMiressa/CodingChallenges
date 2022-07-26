@@ -12,15 +12,19 @@
 </head>
 <body>
   <div class="bgImg">
-    <nav class="navbar navbar-expand-lg topNav">
-        <div class="container-fluid">
-          <!-- Brand Logo -->
-          <a class="nav-desktop navbar-brand" href="#"><img src="images/cc-logo.jpg" width="48" alt="logo"></a>
-          <!-- About -->
-          <a class="nav-desktop text-decoration-none about-cc" href="#">About CC</a>
-          <!-- Hamburger menu -->
-          <img id="hamburger" src="images/bars-solid.jpg" width="36" height="48" alt="menu-icon">
-        </div>
+    <nav class="navbar navbar-default topNav">
+      <div class="container">
+        <!-- Brand Logo -->
+        <a class="nav-desktop navbar-brand" href="#"><img src="images/cc-logo.jpg" width="48" alt="logo"></a>
+        <!-- Contents -->
+        <a class="nav-desktop text-decoration-none" id="content-cc" href="#contents">Contents</a>
+        <!-- Coding Challenges -->
+        <a class="nav-desktop text-decoration-none" id="challenge-cc" href="#coding-challenges">Coding Challenges</a>
+        <!-- About -->
+        <a class="nav-desktop text-decoration-none" id="about-cc" href="#about">About CC</a>
+        <!-- Hamburger menu -->
+        <img id="hamburger" src="images/bars-solid.jpg" width="36" height="48" alt="menu-icon">
+      </div>
     </nav>
     
     <!-- Navigation Menu -->
@@ -36,47 +40,47 @@
         </ul>
     </div>
 
-    <section class="container-fluid">
+    <section class="container-fluid home-page">
         <h3 class="motto">"Preparing you for the language of the future!"</h3>
         <h1 class="description-header">CODING CHALLENGES</h1>
     </section>
     <div id="describer">
-        <p id="description">Wanna challenge yourself with interesting programming tasks? Get started now by scrolling to the 'Challenges' section of this page.</p>
+        <p id="description">Wanna challenge yourself with interesting programming tasks? Get started now by proceeding to the 'Coding Challenges' section of this page.</p>
     </div>
   </div>
-  <section class="contents d-flex gap-4">
+  <section id="contents" class="contents d-flex gap-4">
     <h1 class="content-header">Contents</h1>
-    <div class="d-flex flex-lg-row align-items-center flex-wrap gap-3">
+    <div class="tbl d-flex flex-md-row align-items-center flex-wrap gap-3">
       <div class="row flex-lg-column row1"> 
-        <div class="col-2 my-auto d-flex justify-content-center">
+        <div class="col-2 col-md-12 my-auto d-flex justify-content-center">
           <img src="images/book.svg" width="48" height="48" alt="book">
         </div>
-        <div class="col-4 my-auto">
+        <div class="col-4 col-md-12 my-auto">
           Reading Materials
         </div>
-        <div class="col-6">
+        <div class="col-6 col-md-12">
           Offer references for reading materials to give context to your studies and to allow you to dig deep on your lessons.
         </div>
       </div>
-      <div class="row flex-lg-column row2">
-        <div class="col-2 my-auto d-flex justify-content-center">
+      <div class="row flex-md-column row2">
+        <div class="col-2 col-md-12 my-auto d-flex justify-content-center">
           <img src="images/play.svg" width="48" height="48" alt="video">
         </div>
-        <div class="col-4 my-auto">
+        <div class="col-4 col-md-12 my-auto">
           Supporting Contents
         </div>
-        <div class="col-6">
+        <div class="col-6 col-md-12">
           To aid your studies, we have compiled a list of tutorials which we deem best from the web.
         </div>
       </div>
-       <div class="row flex-lg-column row3">
-        <div class="col-2 my-auto d-flex justify-content-center">
+       <div class="row flex-md-column row3">
+        <div class="col-2 col-md-12 my-auto d-flex justify-content-center">
           <img src="images/terminal.svg" width="48" height="48" alt="video">
         </div>
-        <div class="col-4 my-auto">
+        <div class="col-4 col-md-12 my-auto">
           Programming Tasks
         </div>
-        <div class="col-6">
+        <div class="col-6 col-md-12">
           Coding tasks, mainly javascript function coding, along with the associative hints and answers.
         </div>
       </div>
@@ -84,13 +88,13 @@
     <button type="button" class="sub m-3 mb-5 btn getstarted">Get started with the coding Challenges</button>
   </section>
   <section class="about" id="about">
-    <div class="bgImg">
+    <div class="mainImg">
       <h3 class="motto d-flex justify-content-center text-center pt-5">"Preparing you for the language of the future!"</h3>
       <h1 class="description-header d-flex justify-content-center text-center pt-3">CODING CHALLENGES</h1>
       <div class="about-description text-center">
         <p class="pt-2">Coding challenges is designed to test your knowledge on programming languages and give context on how well you are performing. In the future, leaderboard will be integrated to track your performance compared to other programmers.</p>
       </div>
-      <div class="lato text-center">
+      <div class="about-passage lato text-center">
         Please contact us for any further questions about CC <br>
         <a class="text-decoration-none fw-bold text-dark" href="#">debmirmij@gmail.com</a>
       </div>
