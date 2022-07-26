@@ -2,13 +2,13 @@ body {
   overflow-x: hidden;
 }
 
-#bgImg {
+.bgImg {
   background-image: url("../images/bg.jpg");
   padding-left: 24px;
-  height: 100vh;
+  height: 60vh;
 }
 
-.about {
+.about-cc {
   color: #ec5242;
   font-family: 'lato', sans-serif;
 }
@@ -20,7 +20,8 @@ body {
   background-color: #ec5242;
   width: 100vw;
   height: 100vh;
-  gap: 20px;
+  padding: 16px;
+  padding-left: 42px;
 }
 
 #hamburger {
@@ -28,6 +29,7 @@ body {
 }
 
 .open-menu {
+  position: fixed;
   display: block;
 }
 
@@ -35,14 +37,14 @@ body {
   display: none;
 }
 
-#motto {
+.motto {
   color: #ec5242;
   font-family: 'lato', sans-serif;
   font-size: 24px;
   margin-top: 70px;
 }
 
-h1 {
+.description-header {
   color: #fe1c09;
   font-family: 'cocogoose', sans-serif;
   font-size: 48px;
@@ -61,4 +63,113 @@ h1 {
 #description {
   padding: 5px;
   border: 2px solid white;
+}
+
+#nav-list li {
+  margin: 40px;
+  padding: 40px;
+  font-family: 'cocogoose', sans-serif;
+  font-size: 32px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/bgd.png");
+  color: #d3d3d3;
+  width: 100vw;
+}
+
+.content-header {
+  border-bottom: 1px solid #ec5242;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-family: 'lato',sans-serif;
+  font-weight: 600;
+}
+
+.col-4 {
+  font-family: 'cocogoose', sans-serif;
+  color: #ec5242;
+}
+
+.col-6 {
+  font-family: 'lato', sans-serif;
+  color: #d3d3d3;
+}
+
+.row1,
+.row2,
+.row3 {
+  background-color: #3c3f46;
+}
+
+.sub {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  background: #ec5242;
+  order: 0;
+  justify-items: left;
+  border: none;
+  margin: 0 24px 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.coding-header {
+  border-bottom: 1px solid #ec5242;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  padding-bottom: 5px;
+  font-family: 'lato',sans-serif;
+  font-weight: 600;
+  color: #272a31;
+}
+
+.challenge {
+  border: 2px solid #ec5242;
+  padding: 15px;
+}
+
+.more {
+  font-family: 'lato',sans-serif;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.about-description {
+  font-family: 'lato', sans-serif;
+  background-color: #fff;
+}
+
+.lato {
+  font-family: 'lato', sans-serif;
+}
+
+.cocogoose {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.partner {
+  background-color: #414246;
+}
+
+.partner-header {
+  color: #d3d3d3;
+}
+
+.foot span {
+  align-self: center;
 }

@@ -24,6 +24,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Have git installed.
 - Have text editor installed.
+- Have node installed.
 - Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 - Have bootstrap framework installed.
 
