@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-- Click [here](https://htmlpreview.github.io/?https://github.com/DebbyMiressa/CodingChallenges/blob/coding-challenge/index.html) to get started with a live demo
+- Click [here](https://debbymiressa.github.io/CodingChallenges/) to get started with a live demo
 
 
 ## Getting Started
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@debby_miressa](https://github.com/DebbyMiressa)
 - Twitter: [@debby_miressa](https://twitter.com/debby_miressa)
-- LinkedIn: [LinkdIn](https://www.linkedin.com/in/debby-miressa-0b85b6182)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/debby-miressa-0b85b6182)
 
 ## 🤝 Contributing
 
