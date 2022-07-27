@@ -38,7 +38,6 @@ window.addEventListener('resize', fixedNav);
 
 document.addEventListener('DOMContentLoaded', () => {
   const contents = document.getElementById('contents').offsetTop - document.getElementById('contents').offsetHeight - 350;
-  const about = document.getElementById('about').offsetTop + 600;
   document.addEventListener('scroll', () => {
     const scrollPos = window.scrollY;
     if (scrollPos < contents) {
@@ -49,14 +48,10 @@ document.addEventListener('DOMContentLoaded', () => {
       document.getElementById('content-cc').style.color = '#ec5242';
       document.getElementById('challenge-cc').style.color = '#272a31';
       document.getElementById('about-cc').style.color = '#272a31';
-    } else if (scrollPos >= 1200 && scrollPos < about) {
+    } else if (scrollPos >= 1200) {
       document.getElementById('challenge-cc').style.color = '#ec5242';
       document.getElementById('content-cc').style.color = '#272a31';
       document.getElementById('about-cc').style.color = '#272a31';
-    } else if (scrollPos >= about) {
-      document.getElementById('about-cc').style.color = '#ec5242';
-      document.getElementById('content-cc').style.color = '#272a31';
-      document.getElementById('challenge-cc').style.color = '#272a31';
     }
   });
 });

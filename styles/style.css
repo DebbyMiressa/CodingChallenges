@@ -18,6 +18,10 @@ body {
   height: 100%;
 }
 
+.heading-elements {
+  visibility: hidden;
+}
+
 .bgnd {
   position: absolute;
   top: 0;
@@ -144,6 +148,10 @@ body {
   font-weight: 600;
 }
 
+.tbl {
+  flex-wrap: wrap;
+}
+
 .col-4 {
   font-family: 'cocogoose', sans-serif;
   color: #ec5242;
@@ -233,17 +241,62 @@ body {
     display: none;
   }
 
+  .motto {
+    color: #ec5242;
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+  }
+  
+  .description-header {
+    color: #fe1c09;
+    font-family: 'cocogoose', sans-serif;
+    font-size: 96px;
+    margin-top: 10px;
+  }
+
+  .date {
+    margin-top: 40px;
+    margin-left: 13%;
+  }
+
+  .loc {
+    margin-left: 13%;
+  }
+
   .nav-desktop {
     display: flex;
+  }
+
+  .heading {
+    background-color: #000;
+    height: 30px;
+    width: 107vw;
+    margin-left: -24%;
+    margin-top: -10px;
+    text-align: end;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70%;
+    padding-right: 18%;
+  }
+
+  .heading-elements {
+    visibility: visible;
   }
 
   .topNav {
     background-color: #fff;
     width: 101vw;
     padding-left: 15%;
-    padding-right: 15%;
     margin-left: -24px;
     margin-right: 0;
+    padding-right: 0;
+  }
+
+  .bottomNav {
+    padding-right: 15%;
   }
 
   .navbar-brand {
@@ -271,7 +324,7 @@ body {
   .row1,
   .row2,
   .row3 {
-    width: 25vw;
+    width: 16vw;
     text-align: center;
     display: flex;
     align-items: center;
@@ -282,6 +335,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: nowrap;
   }
 
   .coding-challenges {

@@ -14,7 +14,14 @@
   <div class="htmlbody">
   <div class="bgImg">
     <nav class="navbar fixed-top topNav">
-      <div class="container">
+      <nav class="heading">
+        <img class="heading-elements" src="images/facebook.jpg" width="24" height="24" alt="facebook">
+        <img class="heading-elements" src="images/twitter.png" width="24" height="24" alt="twitter">
+        <span class="text-white fw-bold heading-elements">English</span>
+        <span class="text-white fw-bold heading-elements">My Page</span>
+        <span class="text-white fw-bold heading-elements">Logout</span>
+      </nav>
+      <div class="container bottomNav">
         <!-- Brand Logo -->
         <a class="nav-desktop navbar-brand" href="#"><img src="images/cc-logo.jpg" width="48" alt="logo"></a>
         <!-- Contents -->
@@ -22,7 +29,7 @@
         <!-- Coding Challenges -->
         <a class="nav-desktop text-decoration-none" id="challenge-cc" href="#coding-challenges">Coding Challenges</a>
         <!-- About -->
-        <a class="nav-desktop text-decoration-none" id="about-cc" href="#about">About CC</a>
+        <a class="nav-desktop text-decoration-none" id="about-cc" href="about.html">About CC</a>
         <!-- Hamburger menu -->
         <img id="hamburger" src="images/bars-solid.jpg" width="36" height="48" alt="menu-icon">
       </div>
@@ -33,10 +40,10 @@
         <img id="close" src="images/x-solid.svg" width="24"  alt="close">
         <ul id="nav-list" class="text-decoration-none list-unstyled ms-auto">
             <li class="mx-auto">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="mx-auto">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="about.html">About</a>
             </li>
         </ul>
     </div>
@@ -48,10 +55,14 @@
     <div id="describer">
         <p id="description">Wanna challenge yourself with interesting programming tasks? Get started now by proceeding to the 'Coding Challenges' section of this page.</p>
     </div>
+    <div>
+      <h2 class="date cocogoose">2015.10.15(THU) ~ 16(FRI)</h2>
+      <p class="loc lato">@National Museum of Korea. Art Center Nabi and more</p>
+    </div>
   </div>
   <section id="contents" class="contents d-flex gap-4">
     <h1 class="content-header">Contents</h1>
-    <div class="tbl d-flex flex-md-row align-items-center flex-wrap gap-3">
+    <div class="tbl d-flex flex-md-row align-items-center gap-3">
       <div class="row flex-lg-column row1"> 
         <div class="col-2 col-md-12 my-auto d-flex justify-content-center">
           <img src="images/book.svg" width="48" height="48" alt="book">
@@ -85,36 +96,31 @@
           Coding tasks, mainly javascript function coding, along with the associative hints and answers.
         </div>
       </div>
+      <div class="row flex-md-column row3">
+        <div class="col-2 col-md-12 my-auto d-flex justify-content-center">
+          <img src="images/terminal.svg" width="48" height="48" alt="video">
+        </div>
+        <div class="col-4 col-md-12 my-auto">
+          Programming Tasks
+        </div>
+        <div class="col-6 col-md-12">
+          Coding tasks, mainly javascript function coding, along with the associative hints and answers.
+        </div>
+      </div>
+      <div class="row flex-md-column row3">
+        <div class="col-2 col-md-12 my-auto d-flex justify-content-center">
+          <img src="images/terminal.svg" width="48" height="48" alt="video">
+        </div>
+        <div class="col-4 col-md-12 my-auto">
+          Programming Tasks
+        </div>
+        <div class="col-6 col-md-12">
+          Coding tasks, mainly javascript function coding, along with the associative hints and answers.
+        </div>
+      </div>
     </div>
     <button type="button" class="sub m-3 mb-5 btn getstarted">Get started with the coding Challenges</button>
   </section>
-  <section class="about" id="about">
-    <div class="mainImg">
-      <h3 class="motto d-flex justify-content-center text-center pt-5">"Preparing you for the language of the future!"</h3>
-      <h1 class="description-header d-flex justify-content-center text-center pt-3">CODING CHALLENGES</h1>
-      <div class="about-description text-center">
-        <p class="pt-2">Coding challenges is designed to test your knowledge on programming languages and give context on how well you are performing. In the future, leaderboard will be integrated to track your performance compared to other programmers.</p>
-      </div>
-      <div class="about-passage lato text-center">
-        Please contact us for any further questions about CC <br>
-        <a class="text-decoration-none fw-bold text-dark" href="#">debmirmij@gmail.com</a>
-      </div>
-    </div>
-    <div class="d-flex flex-column justify-content-center">
-      <h1 class="coding-header mt-5">Coding Challenges Logo</h1>
-      <div class="d-flex justify-content-center">
-        <img src="images/cc-logo-large.png" width="400" alt="large logo">
-      </div>
-    </div>
-    <div class="partner mt-5 pb-4 d-flex flex-column justify-content-evenly">
-      <h1 class="coding-header partner-header mt-5">Partner</h1>
-      <div class="d-flex align-items-center justify-content-evenly"><a href="https://www.microverse.org/"><img src="images/microverse-transparent.png" width="150" alt="microverse"></a><a href="https://github.com/"><img src="images/github-transparent.png" width="130" alt="github"></a></div>
-    </div>
-  </section>
-  <footer class="foot d-flex justify-content-center mt-4 p-4 mx-auto m-auto">
-    <img src="images/cc-logo-ethiopia.png" width="100" alt="logo-footer">
-    <span>&copy; 2022. Some rights reserved.</span>
-  </footer>
   </div>
   <script src="scripts/data.js"></script>
   <script src="scripts/menu.js"></script>

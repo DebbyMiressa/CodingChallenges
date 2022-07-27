@@ -15,6 +15,8 @@
 
 - Click [here](https://debbymiressa.github.io/CodingChallenges/) to get started with a live demo
 
+## Presentation Video
+- Click [here](https://www.loom.com/share/3bcc5d08a4734879bf40397de44129d0) to watch my presentation in regards this project.
 
 ## Getting Started
 
@@ -29,11 +31,6 @@ To get a local copy up and running follow these simple example steps.
 - Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 
 ## Authors
-
-👤 Cindy Shin
-
-- Dribble: [@adagio07](http://dribbble.com/adagio07)
-- LinkedIn: [LinkedIn](http://linkedin.com/in/adagio07)
 
 👤 Debby Miressa
 
@@ -53,7 +50,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to 👤 Cindy Shin (Author/Designer of the original template)
+    - Dribble: [@adagio07](http://dribbble.com/adagio07)
+    - LinkedIn: [LinkedIn](http://linkedin.com/in/adagio07)
 - Inspired by [hacker-rank](https://www.hackerrank.com/)
 
 ## 📝 License

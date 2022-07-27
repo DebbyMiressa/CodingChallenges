@@ -91,7 +91,7 @@ function dataLoader() {
     expectedtime[i] = val.expectedtime;
   });
   cc.innerHTML = `
-                  <h1 class="coding-header mt-5 d-flex justify-content-center">Coding Challenges</h1>
+                  <h1 class="coding-header mt-5 d-flex justify-content-center">Featured Coding Challenges</h1>
                   <div class="d-flex flex-column flex-wrap cc">
                     <div class="challenge one mx-2 mt-4">
                         <h2>${title[0]}</h2>
@@ -124,7 +124,8 @@ function dataLoader() {
                     <button type="button" class="more more-event btn mx-2 mt-4"> <span class="more-event" id="more-text"> MORE </span><img class="more-event more-img" src="images/more-arrow.png" width="24" alt="and more"></button>
                   </div>
                 `;
-  htmlbody.insertBefore(cc, document.getElementsByClassName('about')[0]);
+  //   htmlbody.insertBefore(cc, document.getElementsByClassName('about')[0]);
+  htmlbody.appendChild(cc);
   cc.getBoundingClientRect();
 }
 window.addEventListener('load', dataLoader);
