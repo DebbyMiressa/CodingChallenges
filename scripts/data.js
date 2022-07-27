@@ -60,14 +60,14 @@ const challenges = {
   },
   challenge3: {
     title: ' Coding Challenge #3',
-    question: ' Given an array of a sorted integers; print all the odd numbers followed by all the even numbers in ascending order.',
+    question: ' Write a function that takes a number and returns the perimeter of a circle.',
     difficulty: ' Hard',
     expectedtime: ' 30 minutes',
     answer: 'N/A',
   },
   challenge4: {
     title: ' Coding Challenge #4',
-    question: ' Given an array of a sorted integers; print all the odd numbers followed by all the even numbers in ascending order.',
+    question: ' Create a function that takes numbers b and m as arguments and returns the derivative of the function f(x)=x^b with respect to x evaluated at x=m, where b and m are constants.',
     difficulty: ' Super Hard',
     expectedtime: ' 60 minutes',
     answer: 'N/A',
@@ -98,28 +98,28 @@ function dataLoader() {
                         <span><mark>${question[0]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[0]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[0]}</span><br>
-                        <button type="button" class="sub one btn mt-4">Start Challenge</button>
+                        <button type="button" class="sub oneb btn mt-4">Start Challenge</button>
                     </div>
                     <div class="challenge two mx-2 mt-4">
                         <h2>${title[1]}</h2>
                         <span><mark>${question[1]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[1]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[1]}</span><br>
-                        <button type="button" class="sub two btn mt-4">Start Challenge</button>
+                        <button type="button" class="sub twob btn mt-4">Start Challenge</button>
                     </div>
                     <div class="challenge three mx-2 mt-4">
                         <h2>${title[2]}</h2>
                         <span><mark>${question[2]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[2]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[2]}</span><br>
-                        <button type="button" class="sub three btn mt-4">Start Challenge</button>
+                        <button type="button" class="sub threeb btn mt-4">Start Challenge</button>
                     </div>
                     <div class="challenge four mx-2 mt-4">
                         <h2>${title[3]}</h2>
                         <span><mark>${question[3]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[3]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[3]}</span><br>
-                        <button type="button" class="sub four btn mt-4">Start Challenge</button>
+                        <button type="button" class="sub fourb btn mt-4">Start Challenge</button>
                     </div>
                     <button type="button" class="more more-event btn mx-2 mt-4"> <span class="more-event" id="more-text"> MORE </span><img class="more-event more-img" src="images/more-arrow.png" width="24" alt="and more"></button>
                   </div>
@@ -217,21 +217,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   htmlbody.addEventListener('click', (e) => {
     let i = '';
-    if (e.target.classList.contains('one') || e.target.classList.contains('two') || e.target.classList.contains('three') || e.target.classList.contains('four')) {
-      if (e.target.classList.contains('one')) {
+    if (e.target.classList.contains('oneb') || e.target.classList.contains('twob') || e.target.classList.contains('threeb') || e.target.classList.contains('fourb')) {
+      if (e.target.classList.contains('oneb')) {
         i = 0;
-      } else if (e.target.classList.contains('two')) {
+      } else if (e.target.classList.contains('twob')) {
         i = 1;
-      } else if (e.target.classList.contains('three')) {
+      } else if (e.target.classList.contains('threeb')) {
         i = 2;
-      } else if (e.target.classList.contains('four')) {
+      } else if (e.target.classList.contains('fourb')) {
         i = 3;
       }
       openModal(i);
     }
   });
 });
-
 document.querySelector('.getstarted').addEventListener('click', () => {
   document.querySelector('#coding-challenges').scrollIntoView({ behavior: 'smooth' });
 });

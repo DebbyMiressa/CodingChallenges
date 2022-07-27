@@ -238,13 +238,12 @@ body {
   }
 
   .topNav {
-    position: fixed;
-    top: 0;
     background-color: #fff;
-    width: 100vw;
+    width: 101vw;
     padding-left: 15%;
     padding-right: 15%;
     margin-left: -24px;
+    margin-right: 0;
   }
 
   .navbar-brand {
@@ -286,7 +285,7 @@ body {
   }
 
   .coding-challenges {
-    height: 80vh;
+    height: 90vh;
   }
 
   .cc {

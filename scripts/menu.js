@@ -23,6 +23,19 @@ menuItem.forEach((item) => {
   item.addEventListener('click', closeMenu);
 });
 
+const nav = document.querySelector('.topNav');
+
+function fixedNav() {
+  if (window.innerWidth <= 767) {
+    nav.classList.remove('fixed-top');
+  } else {
+    nav.classList.add('fixed-top');
+  }
+}
+
+window.addEventListener('load', fixedNav);
+window.addEventListener('resize', fixedNav);
+
 document.addEventListener('DOMContentLoaded', () => {
   const contents = document.getElementById('contents').offsetTop - document.getElementById('contents').offsetHeight - 350;
   const about = document.getElementById('about').offsetTop + 600;
