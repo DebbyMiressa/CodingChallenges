@@ -24,12 +24,15 @@ menuItem.forEach((item) => {
 });
 
 const nav = document.querySelector('.topNav');
+const foot = document.querySelector('.d-only');
 
 function fixedNav() {
   if (window.innerWidth <= 767) {
     nav.classList.remove('fixed-top');
+    foot.classList.add('visually-hidden');
   } else {
     nav.classList.add('fixed-top');
+    foot.classList.remove('visually-hidden');
   }
 }
 

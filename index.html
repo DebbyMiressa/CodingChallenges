@@ -15,21 +15,28 @@
   <div class="bgImg">
     <nav class="navbar fixed-top topNav">
       <nav class="heading">
-        <img class="heading-elements" src="images/facebook.jpg" width="24" height="24" alt="facebook">
-        <img class="heading-elements" src="images/twitter.png" width="24" height="24" alt="twitter">
-        <span class="text-white fw-bold heading-elements">English</span>
-        <span class="text-white fw-bold heading-elements">My Page</span>
-        <span class="text-white fw-bold heading-elements">Logout</span>
+        <a href="#" class="text-decoration-none"><img class="heading-elements" src="images/facebook.jpg" width="24" height="24" alt="facebook"></a>
+        <a href="#" class="text-decoration-none"><img class="heading-elements" src="images/twitter.png" width="24" height="24" alt="twitter"></a>
+        <a href="#" class="text-decoration-none"><span class="text-white fw-bold heading-elements">English</span></a>
+        <a href="#" class="text-decoration-none"><span class="text-white fw-bold heading-elements">My Page</span></a>
+        <a href="#" class="text-decoration-none"><span class="text-white fw-bold heading-elements">Logout</span></a>
       </nav>
       <div class="container bottomNav">
         <!-- Brand Logo -->
-        <a class="nav-desktop navbar-brand" href="#"><img src="images/cc-logo.jpg" width="48" alt="logo"></a>
+        <div class="d-flex">
+        <a class="nav-desktop navbar-brand" href="#"><img src="images/cc-logo.png" width="48" alt="logo"></a>
+        <a class="nav-desktop" href="#"><img src="images/cc-logo-words.png" width="90" alt="logo"></a>
+        </div>
+        <!-- About -->
+        <a class="nav-desktop text-decoration-none" id="about-cc" href="about.html">About</a>
         <!-- Contents -->
         <a class="nav-desktop text-decoration-none" id="content-cc" href="#contents">Contents</a>
+        <!-- Program -->
+        <p class="nav-desktop mt-3 text-decoration-none" id="prog">Program</p>
+        <!-- Sponsor -->
+        <p class="nav-desktop mt-3 text-decoration-none" id="spon">Sponsor</p>
         <!-- Coding Challenges -->
         <a class="nav-desktop text-decoration-none" id="challenge-cc" href="#coding-challenges">Coding Challenges</a>
-        <!-- About -->
-        <a class="nav-desktop text-decoration-none" id="about-cc" href="about.html">About CC</a>
         <!-- Hamburger menu -->
         <img id="hamburger" src="images/bars-solid.jpg" width="36" height="48" alt="menu-icon">
       </div>
@@ -71,7 +78,7 @@
           Reading Materials
         </div>
         <div class="col-6 col-md-12">
-          Offer references for reading materials to give context to your studies and to allow you to dig deep on your lessons.
+          Coding tasks, mainly javascript function coding, along with the associative hints and answers.
         </div>
       </div>
       <div class="row flex-md-column row2">
@@ -82,7 +89,7 @@
           Supporting Contents
         </div>
         <div class="col-6 col-md-12">
-          To aid your studies, we have compiled a list of tutorials which we deem best from the web.
+          Coding tasks, mainly javascript function coding, along with the associative hints and answers.
         </div>
       </div>
        <div class="row flex-md-column row3">
@@ -119,8 +126,18 @@
         </div>
       </div>
     </div>
-    <button type="button" class="sub m-3 mb-5 btn getstarted">Get started with the coding Challenges</button>
+    <button type="button" class="text-decoration-underline m-3 mb-5 sub getstarted">GET STARTED WITH CODING CHALLENGES</button>
   </section>
+  </div>
+  <div class="d-only visually-hidden">
+    <div class="partner mt-5 pb-4 d-flex flex-column justify-content-evenly">
+      <h1 class="coding-header partner-header mt-5">Partner</h1>
+      <div class="d-flex align-items-center justify-content-evenly"><a href="https://www.microverse.org/"><img src="images/microverse-transparent.png" width="150" alt="microverse"></a><a href="https://github.com/"><img src="images/github-transparent.png" width="130" alt="github"></a><a href="https://www.youtube.com/"><img src="images/youtube.png" width="130" height="80" alt="youtube"></a></div>
+    </div>
+    <footer class="foot d-flex justify-content-center mt-4 p-4 mx-auto m-auto">
+      <img src="images/cc-logo-ethiopia.png" width="100" alt="logo-footer">
+      <span>&copy; 2022. Some rights reserved.</span>
+    </footer>
   </div>
   <script src="scripts/data.js"></script>
   <script src="scripts/menu.js"></script>

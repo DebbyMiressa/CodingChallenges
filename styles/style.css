@@ -5,7 +5,6 @@ body {
 .bgImg {
   background-image: url("../images/bg.jpg");
   padding-left: 24px;
-  height: 60vh;
 }
 
 .mainImg {
@@ -170,6 +169,10 @@ body {
   margin-right: 25px;
 }
 
+.row:hover {
+  border: 1px solid white;
+}
+
 .sub {
   display: flex;
   align-self: center;
@@ -209,6 +212,7 @@ body {
   font-family: 'lato', sans-serif;
   background-color: #fff;
   border: 1px solid #000;
+  margin-bottom: 20px;
 }
 
 .about-description {
@@ -269,8 +273,8 @@ body {
   }
 
   .heading {
-    background-color: #000;
-    height: 30px;
+    background-color: #272a31;
+    height: 35px;
     width: 107vw;
     margin-left: -24%;
     margin-top: -10px;
@@ -338,13 +342,29 @@ body {
     flex-wrap: nowrap;
   }
 
+  .getstarted {
+    color: #fff;
+    background-color: #272a31;
+    border: none;
+  }
+
   .coding-challenges {
-    height: 90vh;
+    height: 120vh;
+  }
+
+  #challenge-cc {
+    border: 5px solid #ec5242;
+    padding: 5px;
+  }
+
+  .prog {
+    text-decoration: none;
+    color: #272a31;
   }
 
   .cc {
     width: 40vw;
-    height: 80vh;
+    height: 100vh;
     align-self: center;
     justify-content: center;
   }
