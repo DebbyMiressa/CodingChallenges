@@ -1,0 +1,389 @@
+body {
+  overflow-x: hidden;
+}
+
+.bgImg {
+  background-image: url("../images/bg.jpg");
+  padding-left: 24px;
+}
+
+.mainImg {
+  background-image: url("../images/bg.jpg");
+  padding-left: 24px;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+}
+
+.heading-elements {
+  visibility: hidden;
+}
+
+.bgnd {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.front {
+  z-index: 1;
+}
+
+.inner {
+  width: 343px;
+  height: 570px;
+  position: relative;
+  background-color: rgb(255 255 255);
+
+  --Example: 375px;
+
+  margin-left: calc((100% - var(--Example)) / 2 + 16px);
+  margin-right: calc((100% - var(--Example)) / 2 + 16px);
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+#xer {
+  float: right;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.challenge-detail {
+  padding: 10px;
+  padding-top: 25px;
+}
+
+.about-cc,
+.contents-cc,
+.challenge-cc {
+  color: #272a31;
+  font-family: 'lato', sans-serif;
+}
+
+#navMenu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ec5242;
+  width: 100vw;
+  height: 100vh;
+  padding: 16px;
+  padding-left: 42px;
+}
+
+#hamburger {
+  border: none;
+}
+
+.open-menu {
+  position: fixed;
+  display: block;
+}
+
+.close-menu {
+  display: none;
+}
+
+.motto {
+  color: #ec5242;
+  font-family: 'lato', sans-serif;
+  font-size: 24px;
+  margin-top: 70px;
+}
+
+.description-header {
+  color: #fe1c09;
+  font-family: 'cocogoose', sans-serif;
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+#describer {
+  background-color: #f7f7f7;
+  margin-right: 24px;
+}
+
+#description {
+  padding: 5px;
+  border: 2px solid white;
+}
+
+#nav-list li {
+  margin: 40px;
+  padding: 40px;
+  font-family: 'cocogoose', sans-serif;
+  font-size: 32px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/bgd.png");
+  color: #d3d3d3;
+  width: 100vw;
+}
+
+.content-header {
+  border-bottom: 1px solid #ec5242;
+  text-align: center;
+  display: flex;
+  align-self: center;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+}
+
+.tbl {
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  font-family: 'cocogoose', sans-serif;
+  color: #ec5242;
+}
+
+.col-6 {
+  font-family: 'lato', sans-serif;
+  color: #d3d3d3;
+}
+
+.row1,
+.row2,
+.row3 {
+  background-color: #3c3f46;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.row:hover {
+  border: 1px solid white;
+}
+
+.sub {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  background: #ec5242;
+  justify-items: left;
+  border: none;
+  margin: 24px auto;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.coding-header {
+  width: fit-content;
+  border-bottom: 1px solid #ec5242;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 5px;
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+  color: #272a31;
+}
+
+.challenge {
+  border: 2px solid #ec5242;
+  padding: 15px;
+}
+
+.more {
+  font-family: 'lato', sans-serif;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-family: 'lato', sans-serif;
+  background-color: #fff;
+}
+
+.lato {
+  font-family: 'lato', sans-serif;
+}
+
+.cocogoose {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.partner {
+  background-color: #414246;
+}
+
+.partner-header {
+  color: #d3d3d3;
+}
+
+.foot span {
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  #hamburger {
+    display: none;
+  }
+
+  .motto {
+    color: #ec5242;
+    font-family: 'lato', sans-serif;
+    font-size: 40px;
+    margin-top: 70px;
+  }
+
+  .description-header {
+    color: #fe1c09;
+    font-family: 'cocogoose', sans-serif;
+    font-size: 96px;
+    margin-top: 10px;
+  }
+
+  .date {
+    margin-top: 40px;
+    margin-left: 13%;
+  }
+
+  .loc {
+    margin-left: 13%;
+  }
+
+  .nav-desktop {
+    display: flex;
+  }
+
+  .heading {
+    background-color: #272a31;
+    height: 35px;
+    width: 107vw;
+    margin-left: -24%;
+    margin-top: -10px;
+    text-align: end;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70%;
+    padding-right: 18%;
+  }
+
+  .heading-elements {
+    visibility: visible;
+  }
+
+  .topNav {
+    background-color: #fff;
+    width: 101vw;
+    padding-left: 15%;
+    margin-left: -24px;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .bottomNav {
+    padding-right: 15%;
+  }
+
+  .navbar-brand {
+    transition: transform 1s;
+  }
+
+  .navbar-brand:hover {
+    transform: rotate(180deg);
+  }
+
+  .home-page {
+    padding-top: 180px;
+    padding-left: 13%;
+  }
+
+  #describer {
+    margin-left: 13%;
+    width: 67vw;
+  }
+
+  .bgImg {
+    height: 101vh;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    width: 16vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .tbl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+
+  .getstarted {
+    color: #fff;
+    background-color: #272a31;
+    border: none;
+  }
+
+  #challenge-cc {
+    border: 5px solid #ec5242;
+    padding: 5px;
+  }
+
+  .prog {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .cc {
+    width: 40vw;
+    height: 100vh;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .three,
+  .four {
+    visibility: visible;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .about-description {
+    margin-left: 13vw;
+    margin-right: 13vw;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about-passage {
+    margin: 20px;
+    padding-bottom: 30px;
+  }
+}
