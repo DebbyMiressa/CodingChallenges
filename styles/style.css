@@ -193,10 +193,10 @@ body {
 }
 
 .coding-header {
+  width: fit-content;
   border-bottom: 1px solid #ec5242;
   text-align: center;
-  display: flex;
-  align-self: center;
+  margin: auto;
   padding-bottom: 5px;
   font-family: 'lato', sans-serif;
   font-weight: 600;
@@ -346,10 +346,6 @@ body {
     color: #fff;
     background-color: #272a31;
     border: none;
-  }
-
-  .coding-challenges {
-    height: 120vh;
   }
 
   #challenge-cc {

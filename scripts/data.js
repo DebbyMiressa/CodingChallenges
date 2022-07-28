@@ -27,7 +27,7 @@ const challenges = {
   },
   challenge2: {
     title: ' Coding Challenge #2',
-    question: ' Given an array of integers; write a javascript function which prints all the odd numbers followed by all the even numbers in ascending order.',
+    question: ' Given an array of a sorted integers; write a javascript function which prints all the odd numbers followed by all the even numbers in ascending order.',
     difficulty: ' Moderate',
     expectedtime: ' 20 minutes',
     answer: `
@@ -60,14 +60,14 @@ const challenges = {
   },
   challenge3: {
     title: ' Coding Challenge #3',
-    question: ' Write a function that takes a number and returns the perimeter of a circle.',
+    question: ' Given an array of a sorted integers; write a javascript function which prints all the odd numbers followed by all the even numbers in ascending order.',
     difficulty: ' Hard',
     expectedtime: ' 30 minutes',
     answer: 'N/A',
   },
   challenge4: {
     title: ' Coding Challenge #4',
-    question: ' Create a function that takes numbers b and m as arguments and returns the derivative of the function f(x)=x^b with respect to x evaluated at x=m, where b and m are constants.',
+    question: ' Given an array of a sorted integers; write a javascript function which prints all the odd numbers followed by all the even numbers in ascending order.',
     difficulty: ' Super Hard',
     expectedtime: ' 60 minutes',
     answer: 'N/A',
@@ -77,7 +77,7 @@ const challenges = {
 const htmlbody = document.querySelector('.htmlbody');
 const cc = document.createElement('section');
 cc.id = 'coding-challenges';
-cc.className = 'coding-challenges';
+cc.className = 'coding-challenges overflow-scroll';
 
 function dataLoader() {
   const title = new Array(7);
@@ -91,40 +91,43 @@ function dataLoader() {
     expectedtime[i] = val.expectedtime;
   });
   cc.innerHTML = `
-                  <h1 class="coding-header mt-5 d-flex justify-content-center">Featured Coding Challenges</h1>
-                  <div class="d-flex flex-column flex-wrap cc">
-                    <div class="challenge one mx-2 mt-4">
+                  <h1 class="coding-header text-center mt-5">Featured Coding Challenges</h1>
+                  <div class="d-grid m-auto w-75 cc">
+                   <div class='row d-flex flex-column flex-md-row'>  
+                    <div class="challenge one col mx-2 mt-4">
                         <h2>${title[0]}</h2>
                         <span><mark>${question[0]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[0]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[0]}</span><br>
                         <button type="button" class="sub oneb btn mt-4">Start Challenge</button>
                     </div>
-                    <div class="challenge two mx-2 mt-4">
+                    <div class="challenge two col mx-2 mt-4">
                         <h2>${title[1]}</h2>
                         <span><mark>${question[1]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[1]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[1]}</span><br>
                         <button type="button" class="sub twob btn mt-4">Start Challenge</button>
                     </div>
-                    <div class="challenge three mx-2 mt-4">
+                   </div>
+                   <div class='row d-flex flex-column flex-md-row'> 
+                    <div class="challenge three col mx-2 mt-4">
                         <h2>${title[2]}</h2>
                         <span><mark>${question[2]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[2]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[2]}</span><br>
                         <button type="button" class="sub threeb btn mt-4">Start Challenge</button>
                     </div>
-                    <div class="challenge four mx-2 mt-4">
+                    <div class="challenge four col mx-2 mt-4">
                         <h2>${title[3]}</h2>
                         <span><mark>${question[3]}</mark></span><br>
                         <label class="fw-bold">Difficulty: </label><span>${difficulty[3]}</span><br>
                         <label class="fw-bold">Expected Completion Time: </label><span>${expectedtime[3]}</span><br>
                         <button type="button" class="sub fourb btn mt-4">Start Challenge</button>
                     </div>
+                   </div> 
                     <button type="button" class="more more-event btn mx-2 mt-4"> <span class="more-event" id="more-text"> MORE </span><img class="more-event more-img" src="images/more-arrow.png" width="24" alt="and more"></button>
                   </div>
                 `;
-  //   htmlbody.insertBefore(cc, document.getElementsByClassName('about')[0]);
   htmlbody.appendChild(cc);
   cc.getBoundingClientRect();
 }
